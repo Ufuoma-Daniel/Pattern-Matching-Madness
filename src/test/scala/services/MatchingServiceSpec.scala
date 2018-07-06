@@ -62,7 +62,7 @@ class MatchingServiceSpec extends WordSpec with Matchers{
 
 
   "matchOnType" should{
-    "turn odd numbers into strings" in{
+    "turn odd numbers into strings for numbers under 10" in{
       MatchingService.matchOnType(3) shouldBe "three"
     }
 
