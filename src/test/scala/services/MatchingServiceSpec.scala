@@ -24,7 +24,7 @@ class MatchingServiceSpec extends WordSpec with Matchers{
     }
   }
 
-  "matchStringToInt" should{
+  "matchIntToString" should{
     "convert a int to String [5]" in{
       MatchingService.matchIntToString(5) shouldBe "five"
     }

@@ -6,13 +6,11 @@ object MatchingService {
 
   def matchIntUnder10(num : Int): Int = ???
 
-  def matchStringToInt(string : String): String = ???
-
   def matchIntToString(num : Int): String = ???
 
-  def matchOnType[A](value : A): A = ???
+  def matchWithGuards(num : Int): Int = ???
 
-  def matchWithGuards[A](num : A): A = ???
+  def matchOnType[A](value : A): A = ???
 
   def matchCaseClassesGarage(car: Car): Car = ???
 
