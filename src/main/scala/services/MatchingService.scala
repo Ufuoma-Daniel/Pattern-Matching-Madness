@@ -10,7 +10,7 @@ object MatchingService {
 
   def matchWithGuards(num : Int): Int = ???
 
-  def matchOnType[A](value : A): A = ???
+  def matchOnType[A](value : A): Any = ???
 
   def matchCaseClassesGarage(car: Car): Car = ???
 
